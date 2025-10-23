@@ -60,6 +60,6 @@ print("After Mean & Mode Imputation:\n", DATA[["Segment", "2006-07", "Imputed_Me
 
 
 # NEW DATA
-# ------------------------------
+
 print("Encoded & Imputed Data:\n")
 print(DATA.to_string(index=False))
