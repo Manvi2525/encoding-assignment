@@ -1,0 +1,20 @@
+import pandas as pd
+
+data = {
+    "Category": [
+        "Passenger Vehicles (PVs)", "Passenger Vehicles (PVs)", "Passenger Vehicles (PVs)",
+        "Commercial Vehicles - M & HCVs", "Commercial Vehicles - M & HCVs", "Commercial Vehicles - M & HCVs",
+        "Commercial Vehicles - LCVs", "Commercial Vehicles - LCVs", "Commercial Vehicles - LCVs"
+    ],
+    "Segment": [
+        "Passenger Cars", "Multi-Utility Vehicles", "Total Passenger Vehicles (PVs)",
+        "Passenger Carriers", "Goods Carriers", "Total M & HCVs",
+        "Passenger Carriers", "Goods Carriers", "Total LCVs"
+    ],
+    "2006-07": [
+        1238032, 307202, 1545234, 32828, 261438, 294266, 29443, 196291, 225734
+    ]
+}
+
+DATA = pd.DataFrame(data)
+print(DATA.to_string(index=False))
